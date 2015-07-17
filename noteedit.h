@@ -49,7 +49,7 @@ private:
     Ui::NoteEdit *ui;
 
 signals:
-    ok(QJsonDocument*);
+    void ok(QJsonDocument*);
 };
 
 #endif // NOTEEDIT_H

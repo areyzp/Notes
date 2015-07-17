@@ -23,8 +23,8 @@ protected:
     void mousePressEvent(QMouseEvent*);
 
 signals:
-    share(Note*);
-    clicked(Note*);
+    void share(Note*);
+    void clicked(Note*);
 
 private slots:
     void on_pushButton_clicked();

@@ -13,7 +13,6 @@ class NoteView : public QWidget
 {
     Q_OBJECT
     Note* n;
-    //QVector <Tag> tags;
 
 public:
     explicit NoteView(QWidget *parent = 0);
@@ -31,8 +30,8 @@ private:
     Ui::NoteView *ui;
 
 signals:
-    edit(QJsonDocument*);
-    delnote(const char*);
+    void edit(QJsonDocument*);
+    void delnote(const char*);
 };
 
 #endif // NOTEVIEW_H

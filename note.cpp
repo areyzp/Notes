@@ -1,5 +1,9 @@
 #include "note.h"
 
+/*
+ * commentary lolhsshshdsfdh
+ */
+
 
 QString Note::getTheme() const
 {

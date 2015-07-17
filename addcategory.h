@@ -17,10 +17,10 @@ public:
 
 
 signals:
-    newCat(Category*);
+    void newCat(Category*);
 
 private slots:
-    onClick();
+    void onClick();
 
 public slots:
 };
